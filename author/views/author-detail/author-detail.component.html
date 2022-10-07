@@ -1,0 +1,12 @@
+<div class="box">
+  {{ author.id }} - {{ author.name }} - {{ author.username }} -
+  {{ author.email }}
+  <button (click)="select.emit(author)" style="margin-left: 1rem">
+    select
+  </button>
+  <button (click)="delete.emit(author.id)" style="margin-left: 1rem">x</button>
+  <button (click)="increment()" style="margin-left: 1rem">
+    {{ countDetail }}
+  </button>
+  <button (click)="increment()" style="margin-left: 1rem">increment</button>
+</div>

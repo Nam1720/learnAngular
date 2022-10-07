@@ -1,0 +1,49 @@
+<!-- <h1>{{title}}</h1>
+
+<h2>{{user.name}}</h2>
+<h2>{{user.age}}</h2>
+<input [type]="'number'" [value]="user.age">
+<button type="button" (click)="handle()">Click me</button>
+<br><br>
+<input type="number" [(ngModel)] = "user.age">
+<hr>
+
+<h1>Bài 04 if else</h1>
+<div *ngIf="user.age >=18 ">Bạn có thể xem phim 18 +</div>
+<button (click)="user.age = user.age -1">-</button>
+Age:{{user.age}}
+<button (click)="user.age = user.age +1">+</button>
+<hr>
+
+<h1>Bài 05</h1>
+<p>Làm việc với mảng for of</p>
+<ul>
+    <li *ngFor="let newUser of user5; index as idx">{{idx}} - {{newUser.name}} - {{newUser.id}} - {{newUser.phone}}</li>
+</ul>
+<hr>
+
+<h1>Bài 06</h1>
+<p>class</p>
+
+<p class="food">đây là text add class</p>
+
+<button (click)="isDanger = !isDanger">Toggle Danger</button>
+<button (click)="isWarning = !isWarning">Toggle Warning</button>
+
+<div class="box"  [class.background]="isDanger" [class.red-border]="isWarning" ></div>
+<br>
+<div class="box" [class] = "{'background': isDanger}" ></div>
+<br>
+<div class="background box" [style.width.rem] = "20" ></div> -->
+
+<!-- bài 7 -->
+<!-- <button (click)="currentProgress = currentProgress + 1">increase</button>
+<app-progress-bar></app-progress-bar>
+<br>
+<app-progress-bar [progress]="currentProgress" [progressColor]="'blue'"></app-progress-bar> -->
+
+<!-- bài 8 -->
+<!-- <app-author-list></app-author-list> -->
+
+<!-- Bài form lê nguyên vũ -->
+<app-template-form-student></app-template-form-student>
